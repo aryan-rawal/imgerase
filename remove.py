@@ -22,6 +22,7 @@ def main():
     if st.button('Remove Background'):
         st.balloons()
         output = remove_bg(image)
+        st.write("Right Click and Save Image on PC/ Long press and save image on mobile")
         st.image(output, caption='Output Image.', use_column_width=True)
 
     
